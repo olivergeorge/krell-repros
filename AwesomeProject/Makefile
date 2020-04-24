@@ -10,3 +10,4 @@ repl:
 
 release:
 	clj -m krell.main -co build.edn -O advanced -c
+
