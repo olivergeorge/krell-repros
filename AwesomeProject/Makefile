@@ -1,6 +1,10 @@
 
 clean:
-	rm -fr target index.js
+	rm -fr target index.js node_modules
+
+setup:
+	yarn
+	npx pod-install ios
 
 build:
 	clj -m krell.main -co build.edn -c
@@ -11,10 +15,11 @@ repl:
 release:
 	clj -m krell.main -co build.edn -O advanced -v -c
 
-ios:
-	npx react-native start
+run-ios:
 	npx react-native run-ios
 
-android:
-	npx react-native start
+start:
+	npx react-native start --verbose
+
+run-android:
 	npx react-native run-android
