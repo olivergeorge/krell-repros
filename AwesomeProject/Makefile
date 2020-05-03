@@ -1,6 +1,6 @@
 
 clean:
-	rm -fr target index.js node_modules
+	rm -fr target .cpcache
 
 setup:
 	yarn
@@ -23,3 +23,4 @@ start:
 
 run-android:
 	npx react-native run-android
+
