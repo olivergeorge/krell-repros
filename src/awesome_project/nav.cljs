@@ -4,6 +4,8 @@
             [react-navigation :as react-navigation]
             [react-navigation-stack :as react-navigation-stack]))
 
+(js/console.log (pr-str ::hello))
+
 (def AppStack
   (react-navigation-stack/createStackNavigator
     (clj->js {:Screen1 {:screen views/screen1}})
