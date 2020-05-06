@@ -1,5 +1,5 @@
 {:deps {io.vouch/krell {:git/url "https://github.com/vouch-opensource/krell.git"
-                        :sha "2f4572a8936cf3a7cea3cda644a624e60905b034"}
+                        :sha "48a58298a1af8e4c09d37b015a143b71ecdf6b7f"}
         io.vouch/reagent-react-native {:git/url "https://github.com/vouch-opensource/reagent-react-native.git"
                                        :sha "54bf52788ab051920ed7641f386177374419e847"}
         reagent {:mvn/version "0.10.0"
