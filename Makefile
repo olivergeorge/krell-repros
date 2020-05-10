@@ -6,7 +6,7 @@ setup:
 	yarn
 	npx pod-install ios
 
-build:
+compile:
 	clj -m krell.main -co build.edn -c
 
 repl:
