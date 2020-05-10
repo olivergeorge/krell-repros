@@ -5727,9 +5727,9 @@ react-is@^16.12.0, react-is@^16.13.0, react-is@^16.7.0, react-is@^16.8.1, react-
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
 react-native-device-info@^5.5.4:
-  version "5.5.6"
-  resolved "https://registry.yarnpkg.com/react-native-device-info/-/react-native-device-info-5.5.6.tgz#139466e6e995e512bb03d5bdeef59bd4cfe21dcf"
-  integrity sha512-3slUaygctIs1UqsTeZIMpskOWm1FC9SouBxyX7rp6PbOmokZiSCO/c5noUx+ihGNRfUDTbyjZDrJBYEfRNXoZg==
+  version "5.5.7"
+  resolved "https://registry.yarnpkg.com/react-native-device-info/-/react-native-device-info-5.5.7.tgz#aafe2581a702637a66fc04f333052980a4f9e8c5"
+  integrity sha512-0021blhx/N1+mWQPOW3QAMWhOjYdG0uC5n+P6sMXZD3pF9aiIeCKuw4JpBpfNXXpUmDmQ7qWgHZUZO7JBMRijw==
 
 react-native-gesture-handler@^1.6.1:
   version "1.6.1"
@@ -5766,9 +5766,9 @@ react-native-screens@^2.7.0:
   integrity sha512-n/23IBOkrTKCfuUd6tFeRkn3lB2QZ3cmvoubRscR0JU/Zl4/ZyKmwnFmUv1/Fr+2GH/H8UTX59kEKDYYg3dMgA==
 
 react-native-tcp-socket@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/react-native-tcp-socket/-/react-native-tcp-socket-3.5.0.tgz#0f75d6eaee27bcdc019f881bbe02175e2df578ad"
-  integrity sha512-eKujsPJbsXaTn19nBY4MSMEhg5fhBXz1vk6Cw+uonubGeVgwb550LWDB9XsjRq+HmQhocvrh5nEYshUf5i2PvQ==
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/react-native-tcp-socket/-/react-native-tcp-socket-3.5.1.tgz#9eeee8b9a8f051071c634cdadb06f0c32e50cb30"
+  integrity sha512-wiTreOvt+roXAlAj/x4ZWybUgMfVkMAgL7eJer7gBer/afM7YJFM8bYKCuBnl4qfFI4xwvY3lfaZHw7Ovxus8Q==
   dependencies:
     buffer "^5.4.3"
 

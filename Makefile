@@ -6,11 +6,11 @@ setup:
 	yarn
 	npx pod-install ios
 
-build:
+compile:
 	clj -m krell.main -co build.edn -c
 
 repl:
-	clj -m krell.main -co build.edn -v -c -r
+	clj -m krell.main -ro repl-options.edn -co build.edn -v -c -r
 
 release:
 	clj -m krell.main -co build.edn -O advanced -v -c
@@ -23,4 +23,6 @@ start:
 
 run-android:
 	npx react-native run-android
+
+test: setup build run-ios repl
 
