@@ -11,12 +11,12 @@
   },
   "dependencies": {
     "@cljs-oss/module-deps": "^1.1.1",
+    "@react-native-community/async-storage": "^1.10.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-native": "0.62.2",
     "react-native-device-info": "^5.5.4",
-    "react-native-tcp-socket": "^3.5.0",
-    "react-native-zeroconf": "^0.11.6"
+    "react-native-tcp-socket": "^3.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
