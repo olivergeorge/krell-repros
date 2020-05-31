@@ -57,6 +57,7 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# Clojurescript
 .cpcache
 target
-index.js
