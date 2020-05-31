@@ -2,18 +2,21 @@
 clean:
 	rm -fr target .cpcache
 
+configure:
+	clj -m cljs.main --install-deps
+
 setup:
 	yarn
 	npx pod-install ios
 
 compile:
-	clj -m krell.main -co build.edn -c
+	clj -A:repl -m krell.main -co build.edn -c
 
 repl:
-	clj -m krell.main -ro repl-options.edn -co build.edn -v -c -r
+	clj -A:repl -m krell.main -co build.edn -c -r
 
 release:
-	clj -m krell.main -co build.edn -O advanced -v -c
+	clj -A:repl -m krell.main -co build.edn -O advanced -v -c
 
 run-ios:
 	npx react-native run-ios
