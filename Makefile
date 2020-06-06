@@ -24,6 +24,9 @@ run-ios:
 start:
 	npx react-native start --verbose
 
+android-emulator:
+	emulator -avd `emulator -list-avds | head -1` &
+
 run-android:
 	npx react-native run-android
 
