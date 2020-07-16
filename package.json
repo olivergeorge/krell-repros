@@ -15,7 +15,6 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-native": "0.62.2",
-    "react-native-device-info": "^5.5.4",
     "react-native-tcp-socket": "^3.6.0"
   },
   "devDependencies": {
