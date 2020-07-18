@@ -1,7 +1,8 @@
 (ns awesome-project.core
   (:require [reagent.core :as r]
             [reagent.react-native :as rn]
-            [goog.object :as gobject]))
+            [goog.object :as gobject]
+            [goog.events.BrowserEvent]))
 
 (defn app []
   [rn/view {:style {:flex 1 :align-items "center" :justify-content "center"}}

@@ -14,7 +14,7 @@ compile:
 	clj -A:repl -m krell.main -co build.edn -c
 
 repl:
-	clj -A:repl -m krell.main -co build.edn -c -r
+	clj -A:repl -m krell.main -ro repl-options.edn -co build.edn -c -r
 
 simple:
 	clj -A:repl -m krell.main -co build.edn -O simple -v -c
